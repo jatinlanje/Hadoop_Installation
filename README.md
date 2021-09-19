@@ -14,7 +14,8 @@
 
 > Paste these
 
-```export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+```
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$PATH:export PATH=$PATH:/usr/lib/jvm/java-8-openjdk-amd64/bin
 export HADOOP_HOME=~/Downloads/hadoop-3.2.1/
 export PATH=$PATH:$HADOOP_HOME/bin
@@ -29,8 +30,9 @@ HADOOP_STREAMING=$HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-3.2.1.jar
 export HADOOP_LOG_DIR=$HADOOP_HOME/logs
 export PDSH_RCMD_TYPE=ssh
 export HIVE_HOME=~/Downloads/apache-hive-3.1.2-bin
-export PATH=$PATH:~/Downloads/apache-hive-3.1.2-bin/bin```
-###come out of the file
+export PATH=$PATH:~/Downloads/apache-hive-3.1.2-bin/bin
+```
+come out of the file
 
 > Install secure shell
 
