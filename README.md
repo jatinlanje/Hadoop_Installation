@@ -57,7 +57,7 @@ sudo apt-get install pdsh
 
 ```cd hadoop-3.2.1/etc/hadoop```
 
-> Now open hadoop-env.h
+## Now open hadoop-env.h
 
 ```sudo nano hadoop-env.h```
 
