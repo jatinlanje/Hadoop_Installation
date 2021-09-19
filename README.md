@@ -32,17 +32,21 @@ export PDSH_RCMD_TYPE=ssh
 export HIVE_HOME=~/Downloads/apache-hive-3.1.2-bin
 export PATH=$PATH:~/Downloads/apache-hive-3.1.2-bin/bin
 ```
-come out of the file
+Come out of the file
 
 > Install secure shell
 
-```sudo apt-get install ssh```
+```
+sudo apt-get install ssh
+```
 (ssh - secure shell - protocol used to securely connect to remote server/system -
 transfers data in encrypted form)
 
 > Install psdh
 
-```sudo apt-get install pdsh```
+```
+sudo apt-get install pdsh
+```
 (parallel shell tool to run commands accross multiple nodes in cluster)
 
 > [Download Hadoop](https://hadoop.apache.org/)
