@@ -57,7 +57,7 @@ sudo apt-get install pdsh
 
 ```cd hadoop-3.2.1/etc/hadoop```
 
-## Now open hadoop-env.h
+> Now open hadoop-env.h
 
 ```sudo nano hadoop-env.h```
 
@@ -65,7 +65,7 @@ sudo apt-get install pdsh
 
 ```JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64```
 
-> NOW edit all the files-
+## NOW edit all the files-
 
 ```sudo nano core-site.xml```
 ```
