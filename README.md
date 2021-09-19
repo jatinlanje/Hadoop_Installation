@@ -68,7 +68,8 @@ sudo apt-get install pdsh
 > NOW edit all the files-
 
 ```sudo nano core-site.xml```
-```<configuration>
+```
+<configuration>
 <property>
 <name>fs.defaultFS</name>
 <value>hdfs://localhost:9000</value>
@@ -89,18 +90,22 @@ sudo apt-get install pdsh
 <name>hadoop.proxyuser.server.groups</name>
 <value>*</value>
 </property>
-</configuration>```
+</configuration>
+```
 
 ```sudo nano hdfs-site.xml```
-```<configuration>
+```
+<configuration>
 <property>
 <name>dfs.replication</name>
 <value>1</value>
 </property>
-</configuration>```
+</configuration>
+```
 
 ```sudo nano mapred-site.xml```
-```<configuration>
+```
+<configuration>
 <property>
 <name>mapreduce.framework.name</name>
 <value>yarn</value>
@@ -110,10 +115,12 @@ sudo apt-get install pdsh
 <value>$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/*:$HADOOP_MAPRED_HOME/share/hadoo
 p/mapreduce/lib/*</value>
 </property>
-</configuration>```
+</configuration>
+```
 
 ```sudo nano yarn-site.xml```
-```<configuration>
+```
+<configuration>
 <property>
 <name>yarn.nodemanager.aux-services</name>
 <value>mapreduce_shuffle</value>
@@ -123,4 +130,5 @@ p/mapreduce/lib/*</value>
 <value>JAVA_HOME,HADOOP_COMMON_HOME,HADOOP_HDFS_HOME,HADOOP_CONF_DIR,CLASSPATH_PREP
 END_DISTCACHE,HADOOP_YARN_HOME,HADOOP_MAPRED_HOME</value>
 </property>
-</configuration>```
+</configuration>
+```
