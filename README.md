@@ -4,15 +4,15 @@
 
 ```sudo apt install openjdk-8-jdk```
 
-## Make sure its there
+> Make sure its there
 
 ```cd /usr/lib/jvm```
 
-## Open bashrc file
+> Open bashrc file
 
 ```sudo nano ~/.bashrc```
 
-## Paste these
+> Paste these
 
 ```export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$PATH:export PATH=$PATH:/usr/lib/jvm/java-8-openjdk-amd64/bin
@@ -32,34 +32,34 @@ export HIVE_HOME=~/Downloads/apache-hive-3.1.2-bin
 export PATH=$PATH:~/Downloads/apache-hive-3.1.2-bin/bin```
 ###come out of the file
 
-## Install secure shell
+> Install secure shell
 
 ```sudo apt-get install ssh```
 (ssh - secure shell - protocol used to securely connect to remote server/system -
 transfers data in encrypted form)
 
-## Install psdh
+> Install psdh
 
 ```sudo apt-get install pdsh```
 (parallel shell tool to run commands accross multiple nodes in cluster)
 
-## [Download Hadoop](https://hadoop.apache.org/)
+> [Download Hadoop](https://hadoop.apache.org/)
 
-## Extract the tar file
+> Extract the tar file
 
 ```tar -zxvf ~/Downloads/hadoop-3.2.1.tar.gz```
 
 ```cd hadoop-3.2.1/etc/hadoop```
 
-## Now open hadoop-env.h
+> Now open hadoop-env.h
 
 ```sudo nano hadoop-env.h```
 
-## Set the path for JAVA_HOME
+> Set the path for JAVA_HOME
 
 ```JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64```
 
-## NOW edit all the files-
+> NOW edit all the files-
 
 ```sudo nano core-site.xml```
 ```<configuration>
