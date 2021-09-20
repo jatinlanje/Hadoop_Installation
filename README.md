@@ -132,6 +132,8 @@ END_DISTCACHE,HADOOP_YARN_HOME,HADOOP_MAPRED_HOME</value>
 </configuration>
 ```
 
+> Now establish local host
+
 ```ssh localhost```
 
 ```ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa```
