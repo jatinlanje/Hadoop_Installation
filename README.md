@@ -132,3 +132,17 @@ END_DISTCACHE,HADOOP_YARN_HOME,HADOOP_MAPRED_HOME</value>
 </property>
 </configuration>
 ```
+
+```ssh localhost```
+```ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa```
+```cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys```
+```chmod 0600 ~/.ssh/authorized_keys```
+
+```~/Downloads/hadoop-3.2.1/bin/hdfs namenode -format```
+(Format the filesystem)
+
+```~/Downloads/hadoop-3.2.1/sbin/start-dfs.sh```
+(Start NameNode daemon and DataNode daemon)
+localhost:9870
+
+# Hadoop Insatlled :wink:
